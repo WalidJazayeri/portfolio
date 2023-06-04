@@ -13,16 +13,11 @@ body {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1500px;
     margin: 0 auto;
-    padding: 20px;
+    outline: 2px black solid;
 }
 
-main section img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-  }
 
 h1, h2, h3 {
     margin-bottom: 10px;
@@ -36,6 +31,11 @@ ul {
 a {
     text-decoration: none;
     color: #333;
+}
+
+p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
 }
 
  main section img {
@@ -64,6 +64,8 @@ header nav ul li {
     margin-right: 20px;
 }
 
+
+
 header nav ul li a {
     color: #fff;
     font-size: 18px;
@@ -71,6 +73,14 @@ header nav ul li a {
 }
 
 /* Styles de la section principale */
+main section img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    min-width: 500px;
+    max-width: 600px;
+  }
+
 main {
     background-color: #fff;
     padding: 20px;
@@ -81,25 +91,53 @@ main {
 main h2 {
     font-size: 24px;
     margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+main section h3 {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
 }
 
 main p {
     margin-bottom: 10px;
+    text-align: justify;
+    padding: 0px 20px;
 }
 
 main a {
     display: inline-block;
     margin-top: 10px;
     color: #333;
-    background-color: #f7f7f7;
+    background-color: #ffddd2;
     padding: 5px 10px;
     border-radius: 3px;
 }
 
+main section p{
+    width: 50%;
+}
+
+.projet1, .projet2, .projet3{
+    background-color: #edf6f9;
+    padding-bottom: 10px;
+}
+
+/* Flexbox des projets */
+.me-flex, .projet-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
 /* Styles du formulaire de contact */
 form {
     margin-top: 20px;
-    text-align: left;
+    width: 100%;
 }
 
 form label {
@@ -109,11 +147,18 @@ form label {
 }
 
 form input[type="text"],
-form input[type="email"] {
-    width: 100%;
+form input[type="email"],
+textarea {
+    width: 50%;
     padding: 5px;
     margin-bottom: 10px;
-    text-align: center; /* Centrer les inputs */
+    margin: auto;
+}
+
+textarea {
+    height: 100px;
+    max-width: 50%;
+    min-width: 40%;
 }
 
 form input[type="submit"] {
@@ -123,7 +168,7 @@ form input[type="submit"] {
     padding: 8px 16px;
     cursor: pointer;
     border-radius: 5px;
-    margin: 0 auto; /* Centrer le bouton */
+    margin: 4px auto; /* Centrer le bouton */
     display: block; /* Afficher le bouton en tant que bloc */
 }
 
