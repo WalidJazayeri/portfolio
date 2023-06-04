@@ -79,6 +79,7 @@ main section img {
     object-fit: cover;
     min-width: 500px;
     max-width: 600px;
+    padding: 0 10px;
   }
 
 main {
@@ -132,6 +133,10 @@ main section p{
     
 }
 
+/* Stles de mes études */
+.bold{
+    font-weight: bold;
+}
 
 
 /* Styles du formulaire de contact */
