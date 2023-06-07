@@ -44,6 +44,14 @@ p{
     max-width: 45%;
 }
 
+img:hover{
+opacity: 0.3;
+}
+
+.me-flex img:first-child{
+    filter: grayscale(30)   
+}
+
 /* Styles du header */
 header {
     background-color: #333;
@@ -53,6 +61,11 @@ header {
 
 header h1 {
     font-size: 32px;
+}
+
+.teststick{
+    position: sticky;
+    top: 0;
 }
 
 header nav ul {
@@ -130,7 +143,7 @@ main section p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    flex-wrap: wrap;    
 }
 
 /* Stles de mes études */
