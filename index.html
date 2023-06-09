@@ -16,18 +16,21 @@
 
 <body>
     <header>
-        <nav class="teststick">
+        <div class="teststick">
+        <nav >
             <ul>
                 <li><a href="#ancre-projets">Projets</a></li>
                 <li><a href="#ancre-etudes">Etudes</a></li>
                 <li><a href="#ancre-contact">Contact</a></li>
             </ul>
         </nav>
-        <h1>Mon portfolio</h1>
+        </div>
+        <h1>Jazayeri Walid</h1>
+        <h2>Developpeur Web</h2>
 
     </header>
     <main class="container">
-        <section>
+        <section class="moi">
             <div class="me-flex">
                 <img src="https://media.gqmagazine.fr/photos/5f5746888b1946095e115197/1:1/w_2411,h_2411,c_limit/GettyImages-813883140.jpg"
                     alt="Une photo de moi">
@@ -44,12 +47,13 @@
                     tirent parti de l'automatisation pour créer un impact positif.</p>
             </div>
         </section>
-        <section>
+        <section class="mesProjets">
             <h2 id="ancre-projets">Mes Projets</h2>
             <div class="projet1">
                 <h3>Projet 1</h3>
                 <div class="projet-flex">
-                    <img src="https://cdn.shopify.com/s/files/1/0249/6376/files/Mises-a-jour-tatification-shopify-2023.png?format=webp&v=1674469278&width=1024"
+                    <img class="test"
+                        src="https://cdn.shopify.com/s/files/1/0249/6376/files/Mises-a-jour-tatification-shopify-2023.png?format=webp&v=1674469278&width=1024"
                         alt="Mon premier projet">
                     <p>Shopify est une plateforme de commerce électronique tout-en-un qui permet de créer et de gérer
                         facilement
@@ -97,37 +101,38 @@
                 <a href="#">En savoir plus</a>
             </div>
         </section>
+
+        <!-- Mon parcours -->
         <section>
-            <h2 id="ancre-etudes">Parcours Professionnelle</h2>
-            <span>Walid</span>
-            <span>Jazayeri</span>
-            <span>28 ans</span>
-            <span>jazayeri.walid1@gmail.com</span>
-            <div>
-                <span>2023</span>
-                <span><span class="bold">Développeur Web</span> : Reconversion professionnelle en tant que Développeur
-                    web Fullstack et mobile
-                    chez DonkeySchool</span>
-            </div>
-            <div>
-                <span>2022</span>
-                <span><span class="bold">Agent de bascule</span> : Accueil des clients et fournisseurs, pesée des
-                    marchandises sur le pont bascule
-                    etc.</span>
-            </div>
-            <div>
-                <span>2021</span>
-                <span><span class="bold">Magasinier / Agent de production</span> : Gestion de la marchandise dès la
-                    réception à la livraison.Production manuel d’objets en série, en conformité avec les regles de
-                    sécurité</span>
-            </div>
-            <div>
-                <span>2018-2020</span>
-                <span><span class="bold">Ouvrier qualifié canalisateur</span> : Sondage sur voirie, pose de
-                    canalisations
-                    public, topographie, compactage, remblayage, etc.</span>
+            <img class="workImg" src="work.png" alt="">
+            <h2 id="ancre-etudes">Mon parcours</h2>
+            <div class="parcours-flex">
+                <div class="parcour">
+                    <p>2023</p>
+                    <p><span class="bold">Développeur Web</span> : Reconversion professionnelle en tant que Développeur
+                        web Fullstack et mobile chez DonkeySchool</p>
+                </div>
+                <div class="parcour">
+                    <p>2022</p>
+                    <p><span class="bold">Agent de bascule</span> : Accueil des clients et fournisseurs, pesée des
+                        marchandises sur le pont bascule
+                        etc.</p>
+                </div>
+                <div class="parcour">
+                    <p>2021</p>
+                    <p><span class="bold">Magasinier / Agent de production</span> : Gestion de la marchandise dès la
+                        réception à la livraison.Production manuel d’objets en série, en conformité avec les regles de
+                        sécurité</p>
+                </div>
+                <div class="parcour">
+                    <p>2018-2020</p>
+                    <p><span class="bold">Ouvrier qualifié canalisateur</span> : Sondage sur voirie, pose de
+                        canalisations
+                        public, topographie, compactage, remblayage, etc.</p>
+                </div>
             </div>
         </section>
+
     </main>
     <footer>
         <h2 id="ancre-contact">Contactez-moi</h2>
@@ -142,12 +147,11 @@
         <a href="#">Monportofolio.com</a>
         <p style="display: inline;">
             <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                <img style="border:0;width:88px;height:31px"
-                    src="https://jigsaw.w3.org/css-validator/images/vcss"
+                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
                     alt="CSS Valide !" />
             </a>
         </p>
-                  
+
     </footer>
 </body>
 
